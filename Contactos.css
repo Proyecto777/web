@@ -1,0 +1,68 @@
+.container{
+    
+  width: 50%;
+ 
+    padding-top: 5px;
+    
+    
+    
+}
+
+h1{
+  font-family: sans-serif;
+    color: brown;
+ 
+    
+}
+
+body{
+    background-image: url(ee.webp);
+    position: static;
+}
+
+h2{
+    
+    
+    font-family: cursive;
+    text-align: justify;
+    color: black;
+}
+.logo{
+    
+    float:right;
+}
+
+.container4{
+  width: 80%;  
+  
+    
+}
+
+.navbar{
+    box-shadow: 2px 2px 5px #000;
+    background-color: #f2f2f2;
+}
+.logo1{
+    width:5%;
+}
+
+
+b{
+ color:black;
+    
+ } 
+
+
+.container2{
+    
+    display: flex;
+    width: 50%;
+    margin: 25px;
+    
+}
+
+.hola{
+   margin: 18px;  
+    
+    
+}

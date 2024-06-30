@@ -1,0 +1,36 @@
+.container{
+  background-color: azure;
+    width: 40%;
+  
+}
+
+body{
+    
+    background-image: url(ee.webp);
+    background-image:
+}
+
+h3{
+    color: chocolate;
+}
+
+.table{
+    
+    padding: 5px;  
+    
+    
+}
+
+.navbar{
+    box-shadow: 2px 2px 5px #000;
+    background-color: #f2f2f2;
+}
+.logo1{
+    width:5%;
+}
+
+
+b{
+ color:black;
+    
+ } 

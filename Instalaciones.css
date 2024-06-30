@@ -1,0 +1,66 @@
+.container{
+          width: 75%;
+    box-shadow: 0 0 20px 2px #000;
+    border-radius: 4px;
+    margin-top: 40px;
+    padding: 20px;
+    height: 100%;
+    background-color: #ffff;
+  
+}
+.hola{
+   width: 300%; 
+    }
+    
+    . row{
+        display: flex;
+}  
+
+h1{
+     font-family: algerian;    
+    color: brown;
+}
+
+.navbar{
+    box-shadow: 2px 2px 5px #000;
+ 
+       background-color: #f2f2f2;
+}
+.logo{
+    width:5%;
+}
+
+
+b{
+ color:black;
+    
+    
+}
+
+.row{
+   width: 85%; 
+    height: 80%;
+     display: flex;
+    padding: 3px;
+}
+
+body{
+background-image:url(ee.webp);
+   
+    background-size:100%;
+    }
+
+.card{
+    background-color: azure;
+    display: flex;
+    width: 80%;
+    padding: 3%;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+.col-sm-6{
+   padding: 7px; 
+}
