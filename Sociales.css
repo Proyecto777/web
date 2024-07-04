@@ -1,0 +1,40 @@
+.navbar{
+    box-shadow: 2px 2px 5px #000;
+ 
+       background-color: #f2f2f2;
+}
+.logo{
+    width: 6%;
+}
+
+
+b{
+ color:black;
+    
+  }  
+    
+   .card{
+    margin: 20px;
+}
+ 
+    
+    .container4{
+   display: flex;
+    width: 65%;
+    padding: 3px;
+    
+    
+}
+
+.container20{
+    width:20%;
+}
+
+
+  .container90{
+   display: flex;
+    width: 40%;
+    padding: 3px;
+    
+    
+}
