@@ -1,0 +1,17 @@
+.navbar{
+    box-shadow: 2px 2px 5px #000;
+    background-color: #f2f2f2;
+}
+.logo{
+    width:4%;
+}
+
+
+b{
+ color:black;
+    
+ } 
+
+.container{
+    display: flex;
+}
