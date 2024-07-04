@@ -1,0 +1,42 @@
+.navbar{
+    box-shadow: 2px 2px 5px #000;
+ 
+       background-color: #f2f2f2;
+}
+.logo{
+    width: 6%;
+}
+
+
+b{
+ color:black;
+    
+    
+}
+
+
+[type="button"] {
+    
+width: 40%;
+    margin: 20px;
+  
+}
+
+.containerc{
+    width: 50%;
+   
+    
+}
+
+h1{
+    
+ font-family: algerian;    
+    color: brown;
+    
+    
+   
+}
+
+body{
+     background-image: url(ee.webp)
+}
