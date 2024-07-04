@@ -1,0 +1,63 @@
+.container{
+    width: 80%;
+}
+    
+    
+    
+.hola{
+  float: right;
+    width: 10%;
+    background-color: aqua;
+    height:10%
+        
+    
+    
+    
+}
+
+body{
+    background-image: url(fondo.jpg)
+}
+
+.header{
+    width: 100%;
+    height: 4rem;
+    background-color:brown;
+}
+
+.cho{
+    width: 100%
+}
+
+.no{
+    background-image: url(Armando-5web2.gif));
+    background-size: cover;
+    min-height: 600px;
+}
+
+.background-overlay{
+    background: rgba(48, 51, 107, .7);
+    min-height: 600px
+}
+.background-overlay{
+    background: rgba(48, 51, 107, .7);
+    min-height: 600px
+}
+
+.container{
+    width: 80%;
+    display: flex;
+}
+    
+    
+    
+.hola{
+  float: right;
+    width: 10%;
+    background-color: aqua;
+    height:10%
+        
+    
+    
+    
+}

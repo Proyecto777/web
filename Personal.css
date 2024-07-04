@@ -1,0 +1,56 @@
+h1{
+    
+ font-family: algerian;    
+    color: brown;
+    
+    
+   
+}
+
+
+body{
+    
+    
+    background-image: url(ee.webp)
+}
+
+.card{
+    
+    border-radius: 14px;
+    padding: 18px;
+    margin:8px;
+}
+
+.container{
+   display: flex;
+    width: 100%;
+   
+    padding: 3px;
+    
+    
+}
+
+
+.container11{
+   display: flex;
+    width: 40%;
+   
+    padding: 3px;
+    
+    
+}
+
+
+.navbar{
+    box-shadow: 2px 2px 5px #000;
+    background-color: #f2f2f2;
+}
+.logo{
+    width:5%;
+}
+
+
+b{
+ color:black;
+    
+ } 
