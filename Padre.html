@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Galería Celebración Día de la Padre</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="Desfiles.css">
+</head>
+<body>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top navbar- bg-">
+   
+   <div class="container">
+   
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img class="logo" src="logo%20del%20IAM.png" alt="">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto">
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a class="nav-item nav-link active" href="Index.html"><b>Inicio</b> <span class="sr-only"></span></a>
+      
+      <a class="nav-item nav-link" href="histotia.html"><b>Historia</b></a>
+      
+      
+      <a class="nav-item nav-link" href="Instalaciones.html"><b>Instalaciónes</b></a>
+      
+              <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <h5><b>Maestros</b></h5>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Maestros.html">    <b> Jornada Matutina    </b> </a></li>
+            <li><a class="dropdown-item" href="m%20tardes.html">    <b> Jornada Vespertina  </b></a></li>
+            <li><a class="dropdown-item" href="m%20noche.html">    <b>Jornada Nocturna  </b></a></li>
+          </ul>
+        </li>
+            
+              <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+              <h5><b>Oferta Académica</b></h5>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Maestros.html">    <b> Ciclo Común   </b> </a></li>
+            <li><a class="dropdown-item" href="Bachillerato.html">    <b> Bachilleratos</b></a></li>
+            
+          </ul>
+        </li>
+            
+             <a class="nav-item nav-link" href="1galeria.html"><b>Galería</b></a>
+             
+               <a class="nav-item nav-link" href="Personal.html"><b>Personal</b></a>
+               
+                 <a class="nav-item nav-link" href="Requisitos.html"><b>Requisitos de Matrícula</b></a>
+    </div>
+  </div>
+  </div>
+</nav>
+   <br><br><br><br>
+   
+   <a href="1galeria.html"><img src="R.png" alt="" width="90px"></a>
+      <center><h1>Celebración Día de la Padre Maestros IAM
+      </h1></center><br>
+   <center>
+   <div class="container6">
+   <div class="gallery"> <img class="hola"src="dia%20del%20padre.jpg" alt="Imagen 4" width="450px" ></div> 
+  <div class="gallery"> <img class="hola" src="dia%20del%20padre2.jpg" alt="Imagen 1" width="450px" ></div>  <div class="gallery">  <img class="hola"src="dia%20del%20padre3.jpg" alt="Imagen 2" width="450px" height="335px"></div> 
+  
+   
+  <div class="gallery">  <img class="hola"src="dia%20del%20padre3.jpg" alt="Imagen 3" width="450px"></div>  <div class="gallery"> <img class="hola"src="dia%20del%20padre33.jpg" alt="Imagen 4" width="450px" height="335px"></div>  <div class="gallery"> <img class="hola"src="dia%20del%20padre4.jpg" alt="Imagen 4" width="450px"></div> 
+   
+   <div class="gallery">  
+ <img class="hola" src="padre.jpg"  alt="Imagen 1" width="450px" height="335px"></div> 
+
+ <div class="gallery"><img class="hola"src="dia%20del%20padre7.jpg" alt="Imagen 2"width="450px" height="335px"></div> 
+  <div class="gallery">  <img class="hola"src="dia%20del%20padre8.jpg" alt="Imagen 3" width="450px" height="335px"></div> 
+ 
+</div>
+</center>
+   
+
+<script>
+    
+    
+    
+const images = document.querySelectorAll('.gallery img');
+const modal = document.createElement('div');
+modal.classList.add('modal');
+document.body.appendChild(modal);
+
+images.forEach(image => {
+  image.addEventListener('click', () => {
+    modal.innerHTML = `
+      <div class="modal-content">
+        <img src="${image.src}" alt="${image.alt}">
+      </div>
+    `;
+    modal.style.display = 'block';
+  });
+});
+
+modal.addEventListener('click', () => {
+  modal.style.display = 'none';
+});
+    
+
+    
+    
+    </script>
+
+
+
+
+<script src="script.js"></script> 
+
+ 
+   
+</body>
+</html>

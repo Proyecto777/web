@@ -1,0 +1,25 @@
+.contenedor{
+      width: 90%;
+    box-shadow: 0 0 20px 2px #000;
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-right: 40px;
+    height: 100%;
+    display: flex;
+        
+}
+
+.luci{
+    float: left;
+    width: 50%;
+    height: 100%;
+      display: flex;
+}
+
+.juli{
+    float: right;
+    width: 50%;
+   
+    height: 100%;
+      display: flex;
+}
