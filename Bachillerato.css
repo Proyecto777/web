@@ -1,0 +1,60 @@
+
+.card{
+    margin: 2%;
+     display: flex;
+   
+}
+
+.container{
+    display: flex;
+}
+.title{
+    padding: 5px;
+    
+}
+
+.card-text{
+    text-align: justify;
+}
+
+
+.navbar{
+    box-shadow: 2px 2px 5px #000;
+ 
+       background-color: #f2f2f2;
+}
+.logo{
+    width:6%;
+}
+
+
+b{
+ color:black;
+    
+ }   
+
+h1{
+     font-family: algerian;    
+    color: brown;
+}
+   .card  {
+        padding: 1opx;
+    width: 250px;
+    margin: 10px;
+    box-shadow: 6px 5px 6px aliceblue;
+   transition: all 400ms ease;
+       border:2px solid #1ee1e1 ;
+       background-color: aliceblue;
+        }
+
+body{
+background-image:url(ee.webp);
+   
+    background-size:100%;
+    }
+
+.card:hover {
+    
+   box-shadow: 8px 15px 8px #1ee1e1 ;
+    transform: translateY(+2%);
+    

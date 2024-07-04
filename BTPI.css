@@ -1,0 +1,84 @@
+.navbar{
+    box-shadow: 2px 2px 5px #000;
+ 
+       background-color: #f2f2f2;
+}
+.logo{
+    width: 6%;
+}
+
+
+b{
+ color:black;
+    
+    
+}
+
+.caja{
+    width: 30%;
+     float: left;
+    float:right;
+    margin: 1rem;
+}
+
+.table1{
+    float: left;
+}
+ 
+.left{
+    float: left
+}
+
+.container2{
+    width:  80%;
+   
+}
+.containertodo{
+   
+    display: flex;
+   overflow: hidden;
+    
+}
+
+body{
+    background-image: url(ee.webp)
+}
+
+.containetex{
+    width: 80%;
+    text-align: justify;
+  
+}
+
+p{
+    text-align: justify;
+}
+
+.caj2{
+    width: 30%;
+    float:right ;
+    margin: 1rem;
+}
+
+.caja3{
+    width: 30%;
+    float:right;
+  margin: 1rem;
+}
+
+      
+    h1{
+    
+ font-family: algerian;    
+    color: brown;
+ 
+}  
+
+[type="button"] {
+    
+width: 80%;
+    margin: 20px;
+  
+}
+      
+      

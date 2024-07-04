@@ -1,5 +1,5 @@
 body{
-    background-image:url(ee.webp);
+   
    
     background-size:100%;
 }
@@ -26,7 +26,10 @@ body{
 }
     
     
-    
+ .container7{
+    width: 70%;
+    display: flex;
+}   
 
 
 .flip-card{
@@ -36,6 +39,12 @@ body{
         
 }
 
+.text{
+    text-align: justify;
+    width: 80%;
+}
+
+}
 .cho{
     cursor:pointer;
      transition: 3s;
@@ -47,7 +56,7 @@ body{
     transition: 3s;
 }
 .card1{
-    background-image:url(fondo.jpg);
+    background-color: azure;;
 }
 
 .flip-card-inner{
@@ -88,7 +97,7 @@ body{
 .containe3{
     
     width: 50%;
-    background-image:url(fondo.jpg);
+   background-color: azure;
      
 }
 
@@ -185,9 +194,14 @@ b{
 
 .accordion-button collapsed{
     border-radius: 28px;
+ 
+}
+
+
+.container4{
     
-    
-    
-    
+    width: 70%;
+ 
+     
 }
 

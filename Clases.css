@@ -1,0 +1,75 @@
+.caja{
+    width: 20%;
+     float: left;
+    float:right;
+    margin: 1rem;
+}
+
+.table1{
+    float: left;
+}
+ 
+.left{
+    float: left
+}
+
+.container2{
+    width:  60%;
+    overflow: hidden;
+    background-color: aquamarine;
+   
+}
+.containertodo{
+  width: 80%;
+    display: flex;
+   overflow: hidden;
+    background-color: aquamarine;
+    
+}
+
+
+h1{
+    
+ font-family: algerian;    
+    color: brown;
+ 
+}
+body{
+    background-image: url(ee.webp)
+}
+
+p{
+    text-align: justify;
+}
+
+
+
+.caj2{
+    width: 30%;
+    float:right ;
+    margin: 1rem;
+}
+
+.caja3{
+    width: 60%;
+    float:right;
+  margin: 1rem;
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

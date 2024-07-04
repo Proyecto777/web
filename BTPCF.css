@@ -1,0 +1,100 @@
+.navbar{
+    box-shadow: 2px 2px 5px #000;
+ 
+       background-color: #f2f2f2;
+}
+.logo{
+    width: 6%;
+}
+
+
+b{
+ color:black;
+    
+    
+}
+
+.caja{
+    width: 30%;
+     float: left;
+    float:right;
+    margin: 1rem;
+}
+
+.table1{
+    float: left;
+}
+ 
+.left{
+    float: left
+}
+
+.container2{
+    width:  70%;
+   
+}
+.containertodo{
+   width: 98%;
+    display: flex;
+   overflow: hidden;
+  
+    
+}
+
+body{
+    background-image: url(ee.webp)
+}
+
+.containetex{
+    width: 80%;
+    text-align: justify;
+  
+}
+
+p{
+    text-align: justify;
+}
+
+.caj2{
+    width: 20%;
+    float:right ;
+    margin: 1rem;
+}
+
+
+
+.caja3{
+    width: 40%;
+    float:right;
+  margin: 1rem;
+}
+
+      
+    h1{
+    
+ font-family: algerian;    
+    color: brown;
+ 
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      
