@@ -30,6 +30,11 @@ b{
     
     }
 
+.container45{
+    width: 40%;
+    display: flex;
+}
+
 h1{
     
  font-family: algerian;    

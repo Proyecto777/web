@@ -6,75 +6,77 @@
 </head>
 <body>
    <center>
-    <div class="container">
+       
+       <h2>Deja un mensaje</h2>
+    <form id="contactForm">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
         
-        <div id="carouselExampleCaptions" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="dia%20del%20padre.jpg" class="d-block w-50" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="dia%20del%20padre2.jpg" class="d-block w-50" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="dia%20del%20padre8.jpg" class="d-block w-50" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
         
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
         
+        <button type="button" onclick="enviarMensaje()">Enviar mensaje</button>
+    </form>
+    
+    <script>
+        function enviarMensaje() {
+            var nombre = document.getElementById("nombre").value.trim();
+            var email = document.getElementById("email").value.trim();
+            var mensaje = document.getElementById("mensaje").value.trim();
+            
+            if (nombre === '' || email === '' || mensaje === '') {
+                alert("Por favor completa todos los campos.");
+                return;
+            }
+            
+            // Guardar mensaje en Firestore
+            db.collection("mensajes").add({
+                nombre: nombre,
+                email: email,
+                mensaje: mensaje
+            })
+            .then(function(docRef) {
+                console.log("Mensaje enviado con ID: ", docRef.id);
+                alert("Mensaje enviado correctamente. Gracias por tu mensaje.");
+                // Limpiar el formulario después de enviar
+                document.getElementById("contactForm").reset();
+                
+                // Enviar correo electrónico
+                enviarCorreo(email, nombre, mensaje);
+            })
+            .catch(function(error) {
+                console.error("Error al enviar el mensaje: ", error);
+                alert("Hubo un error al enviar el mensaje. Por favor, intenta de nuevo más tarde.");
+            });
+        }
         
-        
-        </center>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </div>
+        function enviarCorreo(destinatario, nombre, mensaje) {
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "ayestashernandez139@gmail.com",
+                Password: "Aisly17.",
+                To: destinatario,
+                From: "ayestashernandez139@gmail.com",
+                Subject: "Nuevo mensaje desde tu sitio web",
+                Body: `Hola ${nombre},<br><br>Has recibido un nuevo mensaje:<br><br>${mensaje}<br><br>Saludos,<br>Tu sitio web`
+            })
+            .then(function(message) {
+                console.log("Correo electrónico enviado correctamente:", message);
+            });
+        }
+    </script>
+    
+    <!-- Incluir la biblioteca de Email.js -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+       
+       
+       
+       
+       
+       
+   </center>
 </body>
 </html>

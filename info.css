@@ -35,7 +35,13 @@ b{
     
     
 }
-
+ .container30{
+   display: flex;
+    width: 40%;
+    padding: 3px;
+    
+    
+}
     .container40{
    display: flex;
     width: 60%;
