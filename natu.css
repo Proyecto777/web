@@ -27,10 +27,15 @@ b{
 
   .container30{
    
+    width: 40%;
+      display: flex;
+    
+    
+    
+}
+
+containejo{
     width: 20%;
-    
-    
-    
 }
 
     .container3{
