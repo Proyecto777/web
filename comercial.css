@@ -23,6 +23,13 @@ b{
     
 }
 
+  .container40{
+   display: flex;
+    width: 60%;
+    padding: 3px;
+    
+    
+}
      .card{
     margin: 20px;
 }
