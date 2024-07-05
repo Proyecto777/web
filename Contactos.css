@@ -38,6 +38,13 @@ h2{
     
 }
 
+
+input[ type="submit"] {
+     border-radius: 20px;
+    background-color:chartreuse;
+    width: 80px;
+}
+
 .navbar{
     box-shadow: 2px 2px 5px #000;
     background-color: #f2f2f2;
