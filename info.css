@@ -18,19 +18,20 @@ b{
     
     .container4{
    display: flex;
-    width: 90%;
+    width: 75%;
     padding: 3px;
     
     
 }
 
 .container19{
-    width: 20%;
+    width: 40%;
+    display: flex;
 }
 
  .container3{
    display: flex;
-    width: 80%;
+    width: 90%;
     padding: 3px;
     
     
